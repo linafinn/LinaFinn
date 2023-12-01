@@ -225,9 +225,12 @@ img{
 }
 .colektiv{
     display: flex;
-    justify-content: space-around;
-    padding: 4rem;
+    margin-left:auto ;
+    margin-right:auto ;
+    justify-content: space-between;
+     padding: 4rem;
     gap: 2rem;
+    max-width: 1000px;
 }
 .sekton1{
     padding: 0px;
@@ -250,6 +253,8 @@ img{
 .text h2{
     color: rgb(66, 66, 66);
     margin-top: 1rem;
+    font-family: 'poppins';
+    font-size: 20px;
 }
 .knapp{
     text-align: center;
@@ -291,10 +296,11 @@ img{
     color: aliceblue;
 }
 
-.rubrik{
+.rubrik h2{
     padding-bottom: 1rem;
-    color: rgb(99, 99, 99);
+    color: rgb(75, 74, 74);
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
    
 }
 
